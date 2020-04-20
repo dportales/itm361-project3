@@ -1,0 +1,142 @@
+/* BODY LAYOUT */
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  
+}
+.resume{
+  background-image: url("images/resumebd.jpg");
+}
+
+.biking{
+  background-image: url("images/bikingbd.jpg");
+  color: black;
+}
+
+.fifa{
+  background-image: url("images/fifabd.jfif");
+}
+ 
+.rh{
+  color: #D2B4A9;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 3.25vmax;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+/* "TABLE" FORMATTING */
+.div1{
+  width: 65%;
+  height: 280px;
+  float: left;
+}
+
+.div2{
+  margin-left: 35%;	
+  height: 280px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.div3{
+  width: 100%;
+  height: 280px;
+  float: left;
+  background-color: #424242;
+  opacity: 80%;
+  border-spacing: 10px;
+  border-radius: 15px;
+}
+
+.div4{
+  width: 72%;
+  height: 420px;
+  float: left;
+  background-color: #424242;
+  opacity: 80%;
+  border-spacing: 10px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.div5{
+  margin-left: 30%;	
+  height: 420px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #424242;
+  opacity: 100%;
+  border-spacing: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/* NAVIGATION */
+.navigate{
+  background-color: black;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  display: inline-block;
+  line-height: 2em;
+}
+
+.navigate a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 100px;
+  text-decoration: none;
+}
+
+.navigate a:hover{
+  background-color: gray;
+  color: black;
+}
+
+.navigate a.active{
+  background-color: gray;
+  color: white;
+}
+
+/* IMAGE FORMATING */
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner{
+  width: 30%
+}
+
+.pic{
+  width: 20%;
+}
+
+.panorama{
+  width: 90%;
+}
+
+.food{
+  width: 200px;
+  height: 200px;
+}
+
+.tech{
+  width: 350px;
+  height: 200px;
+}
+
+.kit{
+  width: 410px;
+  height: 200px;
+}
