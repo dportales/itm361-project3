@@ -1,0 +1,7 @@
+function map(){
+
+}
+
+function slideshow(){
+
+}
