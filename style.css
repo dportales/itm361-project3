@@ -140,3 +140,10 @@ img{
   width: 410px;
   height: 200px;
 }
+
+/*Mobile Page*/
+@media only screen and (max-width: 600px) {
+  body {
+    color: lightblue;
+  }
+}
