@@ -50,7 +50,9 @@ function initMap(){
     '<div id="bodyContent">'+
     '<p>Midway Airport is the airport I usually run/bike around due to it being very '+
 	'symmetrical and easy to calculate the distance. There is also a small '+
-	'park and a 7-eleven nearby to buy some snacks.</p>'+
+	'park and a 7-eleven nearby to buy some snacks.'+
+	'Midway is also connected to the CTA orange line making it easy '+
+	'to travel to and within the city.</p>'+
 	'</div>'+
 	'</div>';
 	
