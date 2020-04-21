@@ -142,7 +142,7 @@ img{
 }
 
 /*Mobile Page*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   h1 {
     color: black;
   }
