@@ -96,9 +96,8 @@ h2{
 }
 
 #map{
-	border-radius: 15px;
-	height: 95%;
-	width:95%;
+  height: 95%;
+  width: 95%;
 }
 
 /* NAVIGATION */
