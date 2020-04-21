@@ -144,6 +144,6 @@ img{
 /*Mobile Page*/
 @media only screen and (max-width: 600px) {
   h1 {
-    color: lightblue;
+    color: black;
   }
 }
