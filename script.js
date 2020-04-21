@@ -5,7 +5,7 @@ function initMap(){
 		center: pin,
 		zoom: 15,
 	//style: aubergine
-		style:[
+		styles:[
   {"elementType": "geometry","stylers": [{"color": "#1d2c4d"}]},
   {"elementType": "labels.text.fill","stylers": [{"color": "#8ec3b9"}]},
   {"elementType": "labels.text.stroke","stylers": [{"color": "#1a3646"}]},
