@@ -2,8 +2,8 @@ function initMap(){
 	//midway airport 41.787030, -87.752002
 	var pin = {lat: 41.787030, lng: -87.752002};
 	var map = new google.map.Maps(document.getElementById('map'),{
-		zoom: 15,
 		center: pin,
+		zoom: 15,
 	//style: aubergine
 		style:[
   {"elementType": "geometry","stylers": [{"color": "#1d2c4d"}]},
