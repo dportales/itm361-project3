@@ -95,6 +95,12 @@ h2{
   border-radius: 15px;
 }
 
+#map{
+	border-radius: 15px;
+	height: 95%;
+	width:95%;
+}
+
 /* NAVIGATION */
 .navigate{
   background-color: black;
