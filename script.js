@@ -1,5 +1,6 @@
-function initmap(){
-	var pin = {lat: 41.837972, lng: -87.627389};
+function initMap(){
+	//midway airport 41.787030, -87.752002
+	var pin = {lat: 41.787030, lng: -87.752002};
 	var map = new google.map.Maps(document.getElementById('map'),{
 		zoom: 15,
 		center: pin,
@@ -31,10 +32,29 @@ function initmap(){
   {"featureType": "transit.station","elementType": "geometry","stylers": [{"color": "#3a4762"}]},
   {"featureType": "water","elementType": "geometry","stylers": [{"color": "#0e1626"}]},
   {"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#4e6d70"}]}
-]
+]});
 
-});
+	var marker = new google.maps.Marker({
+		position: pin,
+		map: map,
+		title: 'Midway Airport'
+	});
+		marker.addListener('click', function() {
+		infowindow.open(map, marker);
+    });
 
-	var marker = new google.maps.Marker({position: pin,map: map});
+	var contentString = '<div id="content">'+
+    '<div id="siteInfo">'+
+    '</div>'+
+    '<h1 id="firstHead" class="firstHead">Midway Airport</h1>'+
+    '<div id="bodyContent">'+
+    '<p>Midway Airport is the airport I usually run/bike around due to it being very '+
+	'symmetrical and easy to calculate the distance. There is also a small '+
+	'park and a 7-eleven nearby to buy some snacks.</p>'+
+	'</div>'+
+	'</div>';
+	
+    var infowindow = new google.maps.InfoWindow({
+		content: contentString
+    });
 }
-google.maps.event.addDomListener(window, 'load', initmap);
