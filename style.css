@@ -3,6 +3,7 @@ body{
   font-family: 'PT Sans', sans-serif;
   font-size: 1.2em;
   color: white;
+  text-align: center;
   
 }
 .resume{
@@ -19,6 +20,9 @@ body{
 }
  
 .rh{
+  color: #D2B4A9;
+}
+.rh2{
   color: #D2B4A9;
 }
 
@@ -51,7 +55,17 @@ h2{
 
 .div3{
   width: 100%;
-  height: 280px;
+  height: 220px;
+  float: left;
+  background-color: #424242;
+  opacity: 80%;
+  border-spacing: 10px;
+  border-radius: 15px;
+}
+
+.divfix{
+  width: 100%;
+  height: 350px;
   float: left;
   background-color: #424242;
   opacity: 80%;
@@ -60,24 +74,25 @@ h2{
 }
 
 .div4{
-  width: 72%;
-  height: 420px;
+  width: 100%;
+  height: 410px;
   float: left;
   background-color: #424242;
   opacity: 80%;
   border-spacing: 10px;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 15px;
 }
 
 .div5{
-  margin-left: 30%;	
+  margin-left: 100%;	
   height: 420px;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #424242;
   opacity: 100%;
   border-spacing: 10px;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 15px;
 }
 
 /* NAVIGATION */
@@ -141,15 +156,31 @@ img{
   height: 200px;
 }
 
-/*Mobile Page*/
-@media only screen and (max-width: 768px) {
-  h1 {
-    color: black;
-  }
-}
-
 /*Desktop Page*/
-@media only screen and (min-width: 768px){
-  	
-	
+@media only screen and (min-width: 850px){
+ .anchor{
+	  text-align: left;
+	  font-size: 1.2em;
+  }
+  
+ .food{
+	 padding-left: 0px;
+ }
+ .tech{
+	 padding-left: 0px;
+ }
+  
+ .div4{
+   width: 70%;
+   height: 450px;
+   border-radius: 15px 0px 0px 15px;
+ }
+
+.div5{
+   margin-right: 30%;
+   height: 420px;
+   display: table-cell;
+   vertical-align: middle;
+   border-radius: 0px 15px 15px 0px;
+ }
 }
