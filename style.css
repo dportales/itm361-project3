@@ -152,7 +152,7 @@ img{
 }
 
 .kit{
-  width: 410px;
+  width: 400px;
   height: 200px;
 }
 
@@ -162,13 +162,12 @@ img{
 	  text-align: left;
 	  font-size: 1.2em;
   }
-  
- .food{
-	 padding-left: 0px;
- }
- .tech{
-	 padding-left: 0px;
- }
+  .food{
+	padding-left: 100px;
+  }
+  .tech{
+	padding-left: 25px;  
+  }
   
  .div4{
    width: 70%;
