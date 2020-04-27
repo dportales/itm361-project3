@@ -60,3 +60,5 @@ function initMap(){
 		content: contentString
     });
 }
+
+//Slideshow
