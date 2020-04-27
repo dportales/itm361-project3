@@ -62,3 +62,20 @@ function initMap(){
 }
 
 //Slideshow
+var slides = 0;
+var images = []
+
+images[0] = 'images/chi.jpg';
+images[1] = 'images/teo.jpg';
+images[2] = 'images/wall.jpg';
+
+function slideshow(){
+	document.getElementById('slide').src = images[slides];
+	if (slides < images.length - 1){
+		slides++;
+    }else {
+		slides = 0;
+    }
+	setTimeout("slideshow()", 3000);
+}
+window.onload = slideshow;
